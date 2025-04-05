@@ -11,8 +11,8 @@
 7.多角色權限控管（使用者 / 管理員）<br>
 
 # 🧱 系統架構與分層
-📦 src.main
- ┣ 📁 java
+📦 src.main<br>
+ ┣ 📁 java<br>
  ┃ ┣ 📁 controller     → 控制層（接收前端請求，呼叫 service）<br>
  ┃ ┣ 📁 model       → 資料模型（POJO，對應資料表）<br>
  ┃ ┣ 📁 dao         → 資料存取層（CRUD）<br>
