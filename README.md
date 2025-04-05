@@ -1,6 +1,5 @@
 # ✅ 專案目的
-本專案旨在建立一套線上購物平台，使用者可以瀏覽商品、加入購物車、進行結帳與付款，<br>
-管理員則可管理商品、訂單、用戶與報表。<br>
+本專案旨在建立一套線上購物平台，使用者可以瀏覽商品、加入購物車、進行結帳與付款，管理員則可管理商品、訂單、用戶與報表。<br>
 
 # 透過本專案學習與實作：
 1.Java Web 應用開發流程<br>
@@ -12,10 +11,10 @@
 7.多角色權限控管（使用者 / 管理員）<br>
 
 # 🧱 系統架構與分層
-📦 src.main
- ┣ 📁 java
+📦 src.main<br>
+ ┣ 📁 java<br>
  ┃ ┣ 📁 controller     → 控制層（接收前端請求，呼叫 service）<br>
- ┃ ┣ 📁 model       → 資料模型（POJO，對應資料表）<br>
+ ┃ ┣ 📁 model       → 資料模型（對應資料表）<br>
  ┃ ┣ 📁 dao         → 資料存取層（CRUD）<br>
  ┃ ┣ 📁 service     → 商業邏輯處理層（資料驗證、查詢）<br>
  ┃ ┗ 📁 META-INF    → JPA 設定檔（如 persistence.xml）<br>
@@ -120,7 +119,7 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 
 ## 2.準備好 Tomcat 9.0 可執行環境
 
-下載 shoppingmall.war , 並置於適當位置
+下載 shoppingmall.war , 並置於適當位置 <br>
 
 
 
