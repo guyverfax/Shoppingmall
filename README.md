@@ -193,17 +193,7 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 ![My Image](images/002後台-報表管理01.jpg)
 ![My Image](images/002後台-報表管理02.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
+# 以上是專案說明
 
 
 
