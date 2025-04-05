@@ -99,6 +99,31 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
    ├─ adminreport.jsp（報表視覺化）<br>
    ├─ adminprofile.jsp（個人資料）<br>
 
+# 使用手冊
+## 1.匯入 MySQL Schema 和 Table
+
+請下載 SQL 目錄的檔案，並按照以下步驟將其匯入 MySQL：
+
+打開 MySQL Workbench。
+
+連接到 MySQL 伺服器。
+
+在左側資料庫樹狀中，選擇要匯入資料的資料庫。
+
+在 MySQL Workbench 上方的「管理」標籤下，選擇 資料匯入。
+
+選擇要匯入的檔案（例如 shoppingmall 開頭的.sql）。
+
+點擊 開始匯入。
+
+匯入完成後，資料庫中的 Schema 和表格應已成功設置。
+
+## 2.準備好 Tomcat 9.0 可執行環境
+
+下載 shoppingmall.war , 並置於適當位置
+
+
+
 # 使用介面介紹-前台
 ## 前台主頁
 ![My Image](images/001前台-首頁.jpg)
@@ -107,6 +132,76 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 ![My Image](images/001前台-顯示產品-電子.jpg)
 ![My Image](images/001前台-顯示產品-家居.jpg)
 ![My Image](images/001前台-顯示產品-搜尋.jpg)
+
+## 前台主頁-登入
+![My Image](images/001前台-登入01.jpg)
+![My Image](images/001前台-登入02.jpg)
+
+## 前台主頁-註冊
+![My Image](images/001前台-註冊01.jpg)
+![My Image](images/001前台-註冊03.jpg)
+![My Image](images/001前台-註冊05.jpg)
+
+## 前台主頁-購物 (範例)
+![My Image](images/001前台-購物車01.jpg)
+![My Image](images/001前台-購物車02.jpg)
+![My Image](images/001前台-購物車03.jpg)
+![My Image](images/001前台-購物車04.jpg)
+![My Image](images/001前台-購物車05.jpg)
+![My Image](images/001前台-購物車06.jpg)
+![My Image](images/001前台-購物車07.jpg)
+![My Image](images/001前台-購物車08.jpg)
+![My Image](images/001前台-購物車09.jpg)
+![My Image](images/001前台-購物車10.jpg)
+![My Image](images/001前台-購物車11.jpg)
+![My Image](images/001前台-購物車12.jpg)
+![My Image](images/001前台-購物車13.jpg)
+![My Image](images/001前台-購物車14.jpg)
+
+## 前台主頁-訂單管理
+![My Image](images/001前台-顯示個人訂單01.jpg)
+![My Image](images/001前台-顯示個人訂單02.jpg)
+![My Image](images/001前台-顯示個人訂單03.jpg)
+
+## 後台主頁
+![My Image](images/002後台-首頁.jpg)
+
+## 後台主頁-登入
+![My Image](images/002後台-登入01.jpg)
+![My Image](images/002後台-登入02.jpg)
+![My Image](images/002後台-登入03.jpg)
+
+## 後台主頁-訂單管理
+![My Image](images/002後台-訂單管理01.jpg)
+
+## 後台主頁-訂單管理-搜尋
+![My Image](images/002後台-訂單管理02搜尋訂單.jpg)
+
+## 後台主頁-使用者管理
+![My Image](images/002後台-客戶管理01.jpg)
+
+## 後台主頁-產品管理
+![My Image](images/002後台-產品管理01.jpg)
+![My Image](images/002後台-產品管理02.jpg)
+![My Image](images/002後台-產品管理06.jpg)
+![My Image](images/002後台-產品管理07.jpg)
+![My Image](images/002後台-產品管理08.jpg)
+
+## 後台主頁-客戶管理
+![My Image](images/002後台-客戶管理01.jpg)
+
+## 後台主頁-報表管理
+![My Image](images/002後台-報表管理01.jpg)
+![My Image](images/002後台-報表管理02.jpg)
+
+
+
+
+
+
+
+
+
 
 
 
