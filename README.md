@@ -57,6 +57,11 @@ employee：後台管理帳號<br>
 # 🔧 使用技術與工具 
 ![My Image](images/000-使用技術與工具.png)
 
+# 程式流程設計 （Java Web 購物網站） 
+🗂 系統分層架構（MVC + DAO )<br>
+Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
+        ⇅<br>
+      JSP（前端頁面）<br>
 
 
 
