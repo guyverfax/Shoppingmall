@@ -99,6 +99,31 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
    ├─ adminreport.jsp（報表視覺化）<br>
    ├─ adminprofile.jsp（個人資料）<br>
 
+# 使用手冊
+## 1.匯入 MySQL Schema 和 Table
+
+請下載 SQL 目錄的檔案，並按照以下步驟將其匯入 MySQL：
+
+打開 MySQL Workbench。
+
+連接到 MySQL 伺服器。
+
+在左側資料庫樹狀中，選擇要匯入資料的資料庫。
+
+在 MySQL Workbench 上方的「管理」標籤下，選擇 資料匯入。
+
+選擇要匯入的檔案（例如 shoppingmall 開頭的.sql）。
+
+點擊 開始匯入。
+
+匯入完成後，資料庫中的 Schema 和表格應已成功設置。
+
+## 2.準備好 Tomcat 9.0 可執行環境
+
+下載 shoppingmall.war , 並置於適當位置
+
+
+
 # 使用介面介紹-前台
 ## 前台主頁
 ![My Image](images/001前台-首頁.jpg)
