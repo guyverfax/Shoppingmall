@@ -64,27 +64,27 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
       JSP（前端頁面）<br>
 
 🌐 使用者操作流程圖（前台） 
-1. 使用者訪問 index.jsp（首頁）
+1. 使用者訪問 index.jsp（首頁）<br>
+          ↓<br>
+2. 點擊登入 → login.jsp<br>
+          ↓<br>
+3. 輸入帳密 → UserLogin.java<br>
+          ↓<br>
+4. 登入成功 → 進入 main.jsp（或導向 profile.jsp）<br>
+          ↓<br>
+5. 瀏覽商品（shopX.jsp → ShopList.java）<br>
+          ↓<br>
+6. 加入購物車（ShopAdd.java）<br>
+          ↓<br>
+7. 查看購物車（cart.jsp）<br>
+          ↓<br>
+8. 修改/刪除商品（CartUpdate.java / CartDelete.java）<br>
+          ↓<br>
+9. 結帳 → CheckoutServlet.java<br>
           ↓
-2. 點擊登入 → login.jsp
+10. 輸入付款資料 → PaymentServlet.java<br>
           ↓
-3. 輸入帳密 → UserLogin.java
-          ↓
-4. 登入成功 → 進入 main.jsp（或導向 profile.jsp）
-          ↓
-5. 瀏覽商品（shopX.jsp → ShopList.java）
-          ↓
-6. 加入購物車（ShopAdd.java）
-          ↓
-7. 查看購物車（cart.jsp）
-          ↓
-8. 修改/刪除商品（CartUpdate.java / CartDelete.java）
-          ↓
-9. 結帳 → CheckoutServlet.java
-          ↓
-10. 輸入付款資料 → PaymentServlet.java
-          ↓
-11. 訂單完成 → order.jsp + orderdetail.jsp
+11. 訂單完成 → order.jsp + orderdetail.jsp<br>
 
 # 🔒 管理員操作流程（後台） 
 1. 管理員登入 → adminlogin.jsp → UserLogin.java<br>
@@ -99,7 +99,8 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
    ├─ adminreport.jsp（報表視覺化）<br>
    ├─ adminprofile.jsp（個人資料）<br>
 
-
+# 使用介面介紹-前台
+## 前台主頁
 
 
 
