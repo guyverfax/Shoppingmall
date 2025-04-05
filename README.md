@@ -119,7 +119,7 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 
 ## 2.準備好 Tomcat 9.0 可執行環境
 
-下載 shoppingmall.war , 並置於適當位置
+下載 shoppingmall.war , 並置於適當位置 <br>
 
 
 
