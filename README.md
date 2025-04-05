@@ -108,6 +108,17 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 ![My Image](images/001前台-顯示產品-家居.jpg)
 ![My Image](images/001前台-顯示產品-搜尋.jpg)
 
+## 前台主頁-登入
+![My Image](images/001前台-登入01.jpg)
+![My Image](images/001前台-登入02.jpg)
+
+## 前台主頁-註冊
+![My Image](images/001前台-註冊01.jpg)
+![My Image](images/001前台-註冊03.jpg)
+![My Image](images/001前台-註冊05.jpg)
+
+
+
 
 
 
