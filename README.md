@@ -63,6 +63,33 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
         ⇅<br>
       JSP（前端頁面）<br>
 
+🌐 使用者操作流程圖（前台） 
+1. 使用者訪問 index.jsp（首頁）
+          ↓
+2. 點擊登入 → login.jsp
+          ↓
+3. 輸入帳密 → UserLogin.java
+          ↓
+4. 登入成功 → 進入 main.jsp（或導向 profile.jsp）
+          ↓
+5. 瀏覽商品（shopX.jsp → ShopList.java）
+          ↓
+6. 加入購物車（ShopAdd.java）
+          ↓
+7. 查看購物車（cart.jsp）
+          ↓
+8. 修改/刪除商品（CartUpdate.java / CartDelete.java）
+          ↓
+9. 結帳 → CheckoutServlet.java
+          ↓
+10. 輸入付款資料 → PaymentServlet.java
+          ↓
+11. 訂單完成 → order.jsp + orderdetail.jsp
+
+
+
+
+
 
 
 
