@@ -14,7 +14,7 @@
 📦 src.main<br>
  ┣ 📁 java<br>
  ┃ ┣ 📁 controller     → 控制層（接收前端請求，呼叫 service）<br>
- ┃ ┣ 📁 model       → 資料模型（POJO，對應資料表）<br>
+ ┃ ┣ 📁 model       → 資料模型（對應資料表）<br>
  ┃ ┣ 📁 dao         → 資料存取層（CRUD）<br>
  ┃ ┣ 📁 service     → 商業邏輯處理層（資料驗證、查詢）<br>
  ┃ ┗ 📁 META-INF    → JPA 設定檔（如 persistence.xml）<br>
