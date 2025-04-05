@@ -86,6 +86,20 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
           ↓
 11. 訂單完成 → order.jsp + orderdetail.jsp
 
+# 🔒 管理員操作流程（後台） 
+1. 管理員登入 → adminlogin.jsp → UserLogin.java
+          ↓
+2. 進入 adminportal.jsp（後台首頁）
+          ↓
+3. 管理員功能頁面：
+   ├─ adminemployee.jsp（員工管理）
+   ├─ adminuser.jsp（使用者管理）
+   ├─ adminproduct.jsp（商品管理）
+   ├─ adminorder.jsp（訂單管理）
+   ├─ adminreport.jsp（報表視覺化）
+   ├─ adminprofile.jsp（個人資料）
+
+
 
 
 
