@@ -10,3 +10,19 @@
 5.MVC 架構與分層設計<br>
 6.圖片與靜態資源的管理與顯示<br>
 7.多角色權限控管（使用者 / 管理員）<br>
+
+#🧱 系統架構與分層
+📦 src.main
+ ┣ 📁 java
+ ┃ ┣ 📁 controller     → 控制層（接收前端請求，呼叫 service）
+ ┃ ┣ 📁 model       → 資料模型（POJO，對應資料表）
+ ┃ ┣ 📁 dao         → 資料存取層（CRUD）
+ ┃ ┣ 📁 service     → 商業邏輯處理層（資料驗證、查詢）
+ ┃ ┗ 📁 META-INF    → JPA 設定檔（如 persistence.xml）
+ ┗ 📁 webapp
+   ┣ 📄 *.jsp        → 頁面 UI 顯示（含前後台介面）
+   ┣ 📁 css/js       → 靜態資源（樣式與前端邏輯）
+   ┗ 📁 images_*     → 商品圖片、網站 LOGO、輪播圖等
+
+📦 target/ → Maven 編譯與打包後的 class 與資源
+
