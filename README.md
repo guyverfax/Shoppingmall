@@ -54,6 +54,12 @@ employee：後台管理帳號<br>
 
 ![My Image](images/000-SQL.jpg)
 
+# 🔧 使用技術與工具 
+![image](https://github.com/user-attachments/assets/c2ebb6f1-2753-4835-9ab6-e7af5d21b876)
+
+
+
+
 
 
 
