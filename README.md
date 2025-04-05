@@ -137,7 +137,26 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 ![My Image](images/001前台-顯示個人訂單01.jpg)
 ![My Image](images/001前台-顯示個人訂單02.jpg)
 ![My Image](images/001前台-顯示個人訂單03.jpg)
-![My Image](images/001前台-顯示個人訂單04.jpg)
+
+## 後台主頁
+![My Image](images/002後台-首頁.jpg)
+
+## 後台主頁-登入
+![My Image](images/002後台-登入01.jpg)
+![My Image](images/002後台-登入02.jpg)
+![My Image](images/002後台-登入03.jpg)
+
+## 後台主頁-訂單管理
+![My Image](images/002後台-訂單管理01.jpg)
+
+## 後台主頁-訂單管理-搜尋
+![My Image](images/002後台-訂單管理02搜尋訂單.jpg)
+
+## 後台主頁-使用者管理
+![My Image](images/002後台-客戶管理01.jpg)
+
+## 後台主頁-產品管理
+![My Image](images/002後台-產品管理01.jpg)
 
 
 
