@@ -182,9 +182,6 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 ## 🖼後台主頁-產品管理
 ![My Image](images/002後台-產品管理01.jpg)
 ![My Image](images/002後台-產品管理02.jpg)
-![My Image](images/002後台-產品管理06.jpg)
-![My Image](images/002後台-產品管理07.jpg)
-![My Image](images/002後台-產品管理08.jpg)
 
 ## 👤後台主頁-客戶管理
 ![My Image](images/002後台-客戶管理01.jpg)
