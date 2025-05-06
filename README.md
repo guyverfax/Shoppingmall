@@ -190,8 +190,6 @@ Controller(Servlet/Restful API⇄ Service ⇄ DAO ⇄ MySQL資料庫<br>
 ![My Image](images/002後台-報表管理01.jpg)
 ![My Image](images/002後台-報表管理02.jpg)
 
-[點我下載 PDF 說明文件](shoppingmall專題簡報檔.pdf)
- 
 # 以上是專案說明
 
 
